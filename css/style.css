@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    height: 350px;
+    width: 300px;
+    border: 1px solid rgb(192, 129, 126);
+    border-radius: 5px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgba(208, 148, 148, 0.308),rgba(155, 88, 88, 0.944)),
+    url("../images/W7Image.jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container > input, .container button{
+    display: block;
+    margin: 1rem auto;
+}
+
+.container button {
+    width: 5rem;
+    padding: 0.3rem;
+    color: bisque;
+    background-color: rgba(214, 149, 117, 0.873);
+}
+
+.container h3 {
+    margin: 2rem;
+    color: bisque;
+    text-transform: capitalize;
+}
+
+.container p {
+    color:bisque;
+    font-size: 1.5rem;
+}
